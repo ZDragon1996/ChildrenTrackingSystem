@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0E50337783954A2264C96C /* Pods_ChildrenTrackingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4238669C2B2ECCED8105707 /* Pods_ChildrenTrackingSystem.framework */; };
+		323FB1BD515D35AB904FA229 /* Pods_ChildrenTrackingSystemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD241CDE2E5C0C26231E34CD /* Pods_ChildrenTrackingSystemTests.framework */; };
+		BF347C13218607D700173B09 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF347C12218607D700173B09 /* DateFormat.swift */; };
+		BF3F3FE221C0DA2400697D62 /* movement.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF3F3FE121C0DA2300697D62 /* movement.gif */; };
+		BF5594692183692F00009F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5594682183692F00009F43 /* AppDelegate.swift */; };
+		BF55946B2183692F00009F43 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55946A2183692F00009F43 /* MapViewController.swift */; };
+		BF55946E2183692F00009F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF55946C2183692F00009F43 /* Main.storyboard */; };
+		BF5594702183693100009F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF55946F2183693100009F43 /* Assets.xcassets */; };
+		BF5594732183693100009F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5594712183693100009F43 /* LaunchScreen.storyboard */; };
+		BF5594972183696B00009F43 /* LocationTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5594962183696B00009F43 /* LocationTracking.swift */; };
+		BF559499218372C800009F43 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF559498218372C800009F43 /* ErrorHandling.swift */; };
+		BF55949B2183816200009F43 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55949A2183816200009F43 /* Coordinate.swift */; };
+		BF770FF721B5A211002AC46F /* ChildDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF770FF621B5A211002AC46F /* ChildDetailView.swift */; };
+		BF7E049921AEFFE100B01305 /* ChildListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E049821AEFFE100B01305 /* ChildListController.swift */; };
+		BF7E049B21AF00B800B01305 /* ChildListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E049A21AF00B800B01305 /* ChildListCell.swift */; };
+		BF7E049D21AF09FA00B01305 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E049C21AF09FA00B01305 /* Utility.swift */; };
+		BF7E04A121AF18F000B01305 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E04A021AF18F000B01305 /* Profile.swift */; };
+		BF7E04A321AF288100B01305 /* AddInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E04A221AF288100B01305 /* AddInfoView.swift */; };
+		BFCB502921BAD789000EC181 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB502821BAD789000EC181 /* ChildViewController.swift */; };
+		C1FFACBE06A3A8A430EB9198 /* Pods_ChildrenTrackingSystemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6214193A1575FABCA434228 /* Pods_ChildrenTrackingSystemUITests.framework */; };
+		D8068CA021AE2F93004F06E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8068C9F21AE2F93004F06E4 /* GoogleService-Info.plist */; };
+		D8068CA221AE3224004F06E4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8068CA121AE3224004F06E4 /* SignInViewController.swift */; };
+		D8B3DC7721B8BDFF00D95718 /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3DC7621B8BDFF00D95718 /* Admin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF55947A2183693100009F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF55945D2183692F00009F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5594642183692F00009F43;
+			remoteInfo = ChildrenTrackingSystem;
+		};
+		BF5594852183693100009F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF55945D2183692F00009F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5594642183692F00009F43;
+			remoteInfo = ChildrenTrackingSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1172BDE41B2C3C754FCF28 /* Pods-ChildrenTrackingSystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildrenTrackingSystemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChildrenTrackingSystemTests/Pods-ChildrenTrackingSystemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31F9AE5A5E0EC31390FD8723 /* Pods-ChildrenTrackingSystemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildrenTrackingSystemTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChildrenTrackingSystemTests/Pods-ChildrenTrackingSystemTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF347C12218607D700173B09 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		BF3F3FE121C0DA2300697D62 /* movement.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = movement.gif; path = Assets.xcassets/movement.dataset/movement.gif; sourceTree = "<group>"; };
+		BF5594652183692F00009F43 /* ChildrenTrackingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildrenTrackingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5594682183692F00009F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF55946A2183692F00009F43 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BF55946D2183692F00009F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF55946F2183693100009F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5594722183693100009F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF5594742183693100009F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5594792183693100009F43 /* ChildrenTrackingSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildrenTrackingSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5594842183693100009F43 /* ChildrenTrackingSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildrenTrackingSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5594962183696B00009F43 /* LocationTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTracking.swift; sourceTree = "<group>"; };
+		BF559498218372C800009F43 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		BF55949A2183816200009F43 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		BF770FF621B5A211002AC46F /* ChildDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDetailView.swift; sourceTree = "<group>"; };
+		BF7E049821AEFFE100B01305 /* ChildListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListController.swift; sourceTree = "<group>"; };
+		BF7E049A21AF00B800B01305 /* ChildListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListCell.swift; sourceTree = "<group>"; };
+		BF7E049C21AF09FA00B01305 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BF7E04A021AF18F000B01305 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BF7E04A221AF288100B01305 /* AddInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoView.swift; sourceTree = "<group>"; };
+		BFCB502821BAD789000EC181 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		C4238669C2B2ECCED8105707 /* Pods_ChildrenTrackingSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChildrenTrackingSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C67B7DD46F6FD60E8A6ADB /* Pods-ChildrenTrackingSystemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildrenTrackingSystemUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChildrenTrackingSystemUITests/Pods-ChildrenTrackingSystemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD241CDE2E5C0C26231E34CD /* Pods_ChildrenTrackingSystemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChildrenTrackingSystemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28CE8890E6E0BD5E8D8B5C2 /* Pods-ChildrenTrackingSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildrenTrackingSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChildrenTrackingSystem/Pods-ChildrenTrackingSystem.release.xcconfig"; sourceTree = "<group>"; };
+		D6214193A1575FABCA434228 /* Pods_ChildrenTrackingSystemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChildrenTrackingSystemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8068C9F21AE2F93004F06E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8068CA121AE3224004F06E4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D8B3DC7621B8BDFF00D95718 /* Admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		F42B7A52327D803364BF5299 /* Pods-ChildrenTrackingSystemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildrenTrackingSystemUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChildrenTrackingSystemUITests/Pods-ChildrenTrackingSystemUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBE664BC7FA475B58D90F5DA /* Pods-ChildrenTrackingSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildrenTrackingSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChildrenTrackingSystem/Pods-ChildrenTrackingSystem.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5594622183692F00009F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0E50337783954A2264C96C /* Pods_ChildrenTrackingSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5594762183693100009F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323FB1BD515D35AB904FA229 /* Pods_ChildrenTrackingSystemTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5594812183693100009F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FFACBE06A3A8A430EB9198 /* Pods_ChildrenTrackingSystemUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3A6CF721A3100400FAACBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4238669C2B2ECCED8105707 /* Pods_ChildrenTrackingSystem.framework */,
+				CD241CDE2E5C0C26231E34CD /* Pods_ChildrenTrackingSystemTests.framework */,
+				D6214193A1575FABCA434228 /* Pods_ChildrenTrackingSystemUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4D237D21BC9478004E3F42 /* Location Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				BF55949A2183816200009F43 /* Coordinate.swift */,
+				BF5594962183696B00009F43 /* LocationTracking.swift */,
+				BF55946A2183692F00009F43 /* MapViewController.swift */,
+				BF347C12218607D700173B09 /* DateFormat.swift */,
+			);
+			path = "Location Tracking";
+			sourceTree = "<group>";
+		};
+		BF4D237E21BC94A1004E3F42 /* SignIn View */ = {
+			isa = PBXGroup;
+			children = (
+				D8B3DC7621B8BDFF00D95718 /* Admin.swift */,
+				BF7E04A021AF18F000B01305 /* Profile.swift */,
+				D8068CA121AE3224004F06E4 /* SignInViewController.swift */,
+			);
+			name = "SignIn View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BF4D237F21BC9519004E3F42 /* MasterView and ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E049821AEFFE100B01305 /* ChildListController.swift */,
+				BF7E049A21AF00B800B01305 /* ChildListCell.swift */,
+				BFCB502821BAD789000EC181 /* ChildViewController.swift */,
+			);
+			path = "MasterView and ChildView";
+			sourceTree = "<group>";
+		};
+		BF4D238021BC9556004E3F42 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				BF770FF621B5A211002AC46F /* ChildDetailView.swift */,
+			);
+			path = "Detail View";
+			sourceTree = "<group>";
+		};
+		BF4D238121BC95B1004E3F42 /* Create Account */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E04A221AF288100B01305 /* AddInfoView.swift */,
+			);
+			name = "Create Account";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BF4D238221BC95F6004E3F42 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BF559498218372C800009F43 /* ErrorHandling.swift */,
+				BF7E049C21AF09FA00B01305 /* Utility.swift */,
+			);
+			name = Utility;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BF55945C2183692F00009F43 = {
+			isa = PBXGroup;
+			children = (
+				BF5594682183692F00009F43 /* AppDelegate.swift */,
+				BF55946C2183692F00009F43 /* Main.storyboard */,
+				BF5594672183692F00009F43 /* ChildrenTrackingSystem */,
+				BF5594662183692F00009F43 /* Products */,
+				BF3A6CF721A3100400FAACBF /* Frameworks */,
+				C4E62F94B4E9BF113CA7168D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5594662183692F00009F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5594652183692F00009F43 /* ChildrenTrackingSystem.app */,
+				BF5594792183693100009F43 /* ChildrenTrackingSystemTests.xctest */,
+				BF5594842183693100009F43 /* ChildrenTrackingSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5594672183692F00009F43 /* ChildrenTrackingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				BF4D237F21BC9519004E3F42 /* MasterView and ChildView */,
+				BF4D237E21BC94A1004E3F42 /* SignIn View */,
+				BF4D237D21BC9478004E3F42 /* Location Tracking */,
+				BF4D238021BC9556004E3F42 /* Detail View */,
+				BF4D238121BC95B1004E3F42 /* Create Account */,
+				BF4D238221BC95F6004E3F42 /* Utility */,
+				BF55946F2183693100009F43 /* Assets.xcassets */,
+				BF3F3FE121C0DA2300697D62 /* movement.gif */,
+				BF5594712183693100009F43 /* LaunchScreen.storyboard */,
+				BF5594742183693100009F43 /* Info.plist */,
+				D8068C9F21AE2F93004F06E4 /* GoogleService-Info.plist */,
+			);
+			path = ChildrenTrackingSystem;
+			sourceTree = "<group>";
+		};
+		C4E62F94B4E9BF113CA7168D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBE664BC7FA475B58D90F5DA /* Pods-ChildrenTrackingSystem.debug.xcconfig */,
+				D28CE8890E6E0BD5E8D8B5C2 /* Pods-ChildrenTrackingSystem.release.xcconfig */,
+				0A1172BDE41B2C3C754FCF28 /* Pods-ChildrenTrackingSystemTests.debug.xcconfig */,
+				31F9AE5A5E0EC31390FD8723 /* Pods-ChildrenTrackingSystemTests.release.xcconfig */,
+				C9C67B7DD46F6FD60E8A6ADB /* Pods-ChildrenTrackingSystemUITests.debug.xcconfig */,
+				F42B7A52327D803364BF5299 /* Pods-ChildrenTrackingSystemUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5594642183692F00009F43 /* ChildrenTrackingSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF55948D2183693100009F43 /* Build configuration list for PBXNativeTarget "ChildrenTrackingSystem" */;
+			buildPhases = (
+				5C2D8FE930967E186AD074F1 /* [CP] Check Pods Manifest.lock */,
+				BF5594612183692F00009F43 /* Sources */,
+				BF5594622183692F00009F43 /* Frameworks */,
+				BF5594632183692F00009F43 /* Resources */,
+				62AFC933909C5B688E44806A /* [CP] Embed Pods Frameworks */,
+				8F24184D31020412BA1F66D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChildrenTrackingSystem;
+			productName = ChildrenTrackingSystem;
+			productReference = BF5594652183692F00009F43 /* ChildrenTrackingSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5594782183693100009F43 /* ChildrenTrackingSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5594902183693100009F43 /* Build configuration list for PBXNativeTarget "ChildrenTrackingSystemTests" */;
+			buildPhases = (
+				1F79B7021AD7324376D11F27 /* [CP] Check Pods Manifest.lock */,
+				BF5594752183693100009F43 /* Sources */,
+				BF5594762183693100009F43 /* Frameworks */,
+				BF5594772183693100009F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF55947B2183693100009F43 /* PBXTargetDependency */,
+			);
+			name = ChildrenTrackingSystemTests;
+			productName = ChildrenTrackingSystemTests;
+			productReference = BF5594792183693100009F43 /* ChildrenTrackingSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF5594832183693100009F43 /* ChildrenTrackingSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5594932183693100009F43 /* Build configuration list for PBXNativeTarget "ChildrenTrackingSystemUITests" */;
+			buildPhases = (
+				C651D078E262373B0151C96B /* [CP] Check Pods Manifest.lock */,
+				BF5594802183693100009F43 /* Sources */,
+				BF5594812183693100009F43 /* Frameworks */,
+				BF5594822183693100009F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5594862183693100009F43 /* PBXTargetDependency */,
+			);
+			name = ChildrenTrackingSystemUITests;
+			productName = ChildrenTrackingSystemUITests;
+			productReference = BF5594842183693100009F43 /* ChildrenTrackingSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF55945D2183692F00009F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Bubble;
+				TargetAttributes = {
+					BF5594642183692F00009F43 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BF5594782183693100009F43 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BF5594642183692F00009F43;
+					};
+					BF5594832183693100009F43 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BF5594642183692F00009F43;
+					};
+				};
+			};
+			buildConfigurationList = BF5594602183692F00009F43 /* Build configuration list for PBXProject "ChildrenTrackingSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF55945C2183692F00009F43;
+			productRefGroup = BF5594662183692F00009F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5594642183692F00009F43 /* ChildrenTrackingSystem */,
+				BF5594782183693100009F43 /* ChildrenTrackingSystemTests */,
+				BF5594832183693100009F43 /* ChildrenTrackingSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5594632183692F00009F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5594732183693100009F43 /* LaunchScreen.storyboard in Resources */,
+				D8068CA021AE2F93004F06E4 /* GoogleService-Info.plist in Resources */,
+				BF5594702183693100009F43 /* Assets.xcassets in Resources */,
+				BF3F3FE221C0DA2400697D62 /* movement.gif in Resources */,
+				BF55946E2183692F00009F43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5594772183693100009F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5594822183693100009F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F79B7021AD7324376D11F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChildrenTrackingSystemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2D8FE930967E186AD074F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChildrenTrackingSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62AFC933909C5B688E44806A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChildrenTrackingSystem/Pods-ChildrenTrackingSystem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChildrenTrackingSystem/Pods-ChildrenTrackingSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F24184D31020412BA1F66D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChildrenTrackingSystem/Pods-ChildrenTrackingSystem-resources.sh",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIAccountSettingsViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIAuthPickerViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIAuthTableViewCell.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIEmailEntryViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIInputTableViewCell.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIPasswordRecoveryViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIPasswordSignInViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIPasswordSignUpViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIPasswordTableViewCell.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIPasswordVerificationViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/FUIStaticContentTableViewController.nib",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_email.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_email@2x.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_email@3x.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_visibility.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_visibility@2x.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_visibility@3x.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_visibility_off.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_visibility_off@2x.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ic_visibility_off@3x.png",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ar.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/de.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/en-GB.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/en.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/es-419.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/es-ES.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/fr.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/it.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ja.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ko.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/nl.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/pl.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/pt-BR.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/ru.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/th.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/tr.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/zh-Hans.lproj",
+				"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks/FirebaseAuthUI.framework/zh-Hant.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIAccountSettingsViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIAuthPickerViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIAuthTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIEmailEntryViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIInputTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIPasswordRecoveryViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIPasswordSignInViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIPasswordSignUpViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIPasswordTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIPasswordVerificationViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FUIStaticContentTableViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_email.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_email@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_email@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_visibility.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_visibility@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_visibility@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_visibility_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_visibility_off@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_visibility_off@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ar.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en-GB.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es-419.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es-ES.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt-BR.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/th.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChildrenTrackingSystem/Pods-ChildrenTrackingSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C651D078E262373B0151C96B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChildrenTrackingSystemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5594612183692F00009F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7E04A321AF288100B01305 /* AddInfoView.swift in Sources */,
+				BF7E049D21AF09FA00B01305 /* Utility.swift in Sources */,
+				BF7E04A121AF18F000B01305 /* Profile.swift in Sources */,
+				D8B3DC7721B8BDFF00D95718 /* Admin.swift in Sources */,
+				D8068CA221AE3224004F06E4 /* SignInViewController.swift in Sources */,
+				BF55946B2183692F00009F43 /* MapViewController.swift in Sources */,
+				BF559499218372C800009F43 /* ErrorHandling.swift in Sources */,
+				BF347C13218607D700173B09 /* DateFormat.swift in Sources */,
+				BF5594972183696B00009F43 /* LocationTracking.swift in Sources */,
+				BF7E049B21AF00B800B01305 /* ChildListCell.swift in Sources */,
+				BF770FF721B5A211002AC46F /* ChildDetailView.swift in Sources */,
+				BFCB502921BAD789000EC181 /* ChildViewController.swift in Sources */,
+				BF7E049921AEFFE100B01305 /* ChildListController.swift in Sources */,
+				BF5594692183692F00009F43 /* AppDelegate.swift in Sources */,
+				BF55949B2183816200009F43 /* Coordinate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5594752183693100009F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5594802183693100009F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF55947B2183693100009F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5594642183692F00009F43 /* ChildrenTrackingSystem */;
+			targetProxy = BF55947A2183693100009F43 /* PBXContainerItemProxy */;
+		};
+		BF5594862183693100009F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5594642183692F00009F43 /* ChildrenTrackingSystem */;
+			targetProxy = BF5594852183693100009F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF55946C2183692F00009F43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF55946D2183692F00009F43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF5594712183693100009F43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5594722183693100009F43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF55948B2183693100009F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_HEADERS_UNIFDEF_FLAGS = "\"${PODS_ROOT}/Headers/Public/mailcore2-ios/MailCore\"";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF55948C2183693100009F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_HEADERS_UNIFDEF_FLAGS = "\"${PODS_ROOT}/Headers/Public/mailcore2-ios/MailCore\"";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF55948E2183693100009F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE664BC7FA475B58D90F5DA /* Pods-ChildrenTrackingSystem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354P8BTE25;
+				INFOPLIST_FILE = ChildrenTrackingSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ChildrenTrackingSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF55948F2183693100009F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28CE8890E6E0BD5E8D8B5C2 /* Pods-ChildrenTrackingSystem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354P8BTE25;
+				INFOPLIST_FILE = ChildrenTrackingSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ChildrenTrackingSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF5594912183693100009F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1172BDE41B2C3C754FCF28 /* Pods-ChildrenTrackingSystemTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354P8BTE25;
+				INFOPLIST_FILE = ChildrenTrackingSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ChildrenTrackingSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildrenTrackingSystem.app/ChildrenTrackingSystem";
+			};
+			name = Debug;
+		};
+		BF5594922183693100009F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F9AE5A5E0EC31390FD8723 /* Pods-ChildrenTrackingSystemTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354P8BTE25;
+				INFOPLIST_FILE = ChildrenTrackingSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ChildrenTrackingSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildrenTrackingSystem.app/ChildrenTrackingSystem";
+			};
+			name = Release;
+		};
+		BF5594942183693100009F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C67B7DD46F6FD60E8A6ADB /* Pods-ChildrenTrackingSystemUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354P8BTE25;
+				INFOPLIST_FILE = ChildrenTrackingSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ChildrenTrackingSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChildrenTrackingSystem;
+			};
+			name = Debug;
+		};
+		BF5594952183693100009F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42B7A52327D803364BF5299 /* Pods-ChildrenTrackingSystemUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354P8BTE25;
+				INFOPLIST_FILE = ChildrenTrackingSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ChildrenTrackingSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChildrenTrackingSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5594602183692F00009F43 /* Build configuration list for PBXProject "ChildrenTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF55948B2183693100009F43 /* Debug */,
+				BF55948C2183693100009F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF55948D2183693100009F43 /* Build configuration list for PBXNativeTarget "ChildrenTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF55948E2183693100009F43 /* Debug */,
+				BF55948F2183693100009F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5594902183693100009F43 /* Build configuration list for PBXNativeTarget "ChildrenTrackingSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5594912183693100009F43 /* Debug */,
+				BF5594922183693100009F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5594932183693100009F43 /* Build configuration list for PBXNativeTarget "ChildrenTrackingSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5594942183693100009F43 /* Debug */,
+				BF5594952183693100009F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF55945D2183692F00009F43 /* Project object */;
+}
